@@ -17,6 +17,8 @@ View the full training notebook with outputs, charts, and evaluation metrics:
 - CLI mode via `predict.py` for quick testing
 
 ## Project Structure
+
+```
 house-price-prediction/
 ├── data/               # Raw CSVs (not pushed to git)
 ├── model/              # Saved model artifacts
@@ -27,6 +29,7 @@ house-price-prediction/
 ├── predict.py          # CLI predictor
 ├── main.ipynb          # Training notebook
 └── requirements.txt
+```
 
 ## Run Locally
 
