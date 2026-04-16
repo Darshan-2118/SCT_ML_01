@@ -1,6 +1,6 @@
 # 🏠 House Price Predictor
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sctml01-intern.streamlit.app/)
 
 A machine learning web app that predicts house sale prices using a Linear Regression model trained on the [Ames Housing Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
 
