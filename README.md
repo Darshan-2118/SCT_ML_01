@@ -11,6 +11,15 @@ View the full training notebook with outputs, charts, and evaluation metrics:
 
 - [View on GitHub](./main.ipynb)
 
+## 🖼️ App Preview
+<p align="center">
+  <img src="assets/preview1.png" width="900"/>
+</p>
+
+<p align="center">
+  <img src="assets/preview2.png" width="900"/>
+</p>
+
 ## Features
 - Predicts sale price from square footage and room details
 - Clean dark-themed UI built with Streamlit
@@ -36,6 +45,8 @@ house-price-prediction/
 ```bash
 git clone https://github.com/Darshan-2118/SCT_ML_01.git
 cd SCT_ML_01
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
@@ -51,3 +62,4 @@ streamlit run app.py
 - **Algorithm**: Linear Regression
 - **Target**: `log(SalePrice)` → exponentiated at prediction time
 - **Features**: `GrLivArea`, `TotalBsmtSF`, `1stFlrSF`, `2ndFlrSF`, `BedroomAbvGr`, `FullBath`, `HalfBath`, `BsmtFullBath`, `TotRmsAbvGrd`, `TotalSqFt`, `TotalBaths`
+
